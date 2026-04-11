@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Memories for Ann Wanjiku</title>
+    <meta name="theme-color" content="#9f2d56">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="Birthday Wishes">
+    <link rel="manifest" href="/manifest.webmanifest">
+    <link rel="icon" href="/assets/app-icon-192.png" type="image/png">
+    <link rel="apple-touch-icon" href="/assets/app-icon-192.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="memories">
+    <div class="page-shell">
+        <header class="site-header">
+            <a class="brand" href="/home.html">Ann Wanjiku</a>
+            <nav class="site-nav">
+                <a href="/home.html">Home</a>
+                <a href="/wishes.html">Wishes</a>
+                <a href="/celebration.html">Celebration</a>
+                <a href="/gallery.html">Gallery</a>
+                <a href="/blessings.html">Blessings</a>
+                <a href="/letter.html">Letter</a>
+                <a href="/highlights.html">Highlights</a>
+                <a href="/journey.html">Journey</a>
+                <a href="/memories.html" class="active">Memories</a>
+                <a href="/queen.html">Queen</a>
+                <a href="/toast.html">Toast</a>
+                <a href="/candles.html">Candles</a>
+                <a href="/finale.html">Finale</a>
+                <a href="/admin.html">Update Birthday</a>
+            </nav>
+        </header>
+
+        <main>
+            <section class="page-intro">
+                <p class="eyebrow">Sweet memories</p>
+                <h1>Pages Filled With Beautiful Birthday Memories</h1>
+                <p class="lead">
+                    A soft and elegant space imagining the kind of memories that make Ann Wanjiku's birthday feel warm, precious, and unforgettable.
+                </p>
+            </section>
+
+            <section class="memory-grid">
+                <article class="memory-card glow-gold">
+                    <span class="label">Morning Smile</span>
+                    <h2>The First Happy Birthday Message</h2>
+                    <p>The day begins with excitement, affection, and a smile that sets the whole celebration glowing.</p>
+                </article>
+                <article class="memory-card glow-rose">
+                    <span class="label">Shared Joy</span>
+                    <h2>Kind Words From Loved Ones</h2>
+                    <p>Every message, prayer, and warm wish becomes part of the beauty of this birthday story.</p>
+                </article>
+                <article class="memory-card glow-blue">
+                    <span class="label">Special Date</span>
+                    <h2><span id="birthday-day-inline">Loading...</span></h2>
+                    <p><span id="birthday-date-inline">Loading...</span> is remembered as a day of love, beauty, and celebration.</p>
+                </article>
+            </section>
+
+            <section class="gallery-frames memory-photos">
+                <figure class="gallery-frame memory-photo tall-photo">
+                    <img src="/assets/birthday-bloom.svg" alt="Elegant birthday artwork with warm floral glow">
+                </figure>
+                <figure class="gallery-frame memory-photo">
+                    <img src="/assets/floral-frame.svg" alt="Decorative floral birthday frame artwork">
+                </figure>
+                <figure class="gallery-frame memory-photo">
+                    <img src="/assets/golden-cake.svg" alt="Golden birthday artwork with glowing candles">
+                </figure>
+            </section>
+
+            <section class="feature-strip">
+                <article class="feature-panel">
+                    <p class="eyebrow">Memory Slider</p>
+                    <h2>Swipe through the sweetest scenes</h2>
+                    <div class="memory-slider">
+                        <div class="memory-slider-track" id="memory-slider-track"></div>
+                    </div>
+                    <div class="memory-slider-dots" id="memory-slider-dots"></div>
+                </article>
+            </section>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
